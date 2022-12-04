@@ -1,0 +1,953 @@
+[
+    {
+        "title": "Sistema Informatico",
+        "definition": "Conjunto de elementos físicos o hardware que son necesarios para la explotación de las aplicaciones informáticas o software."
+    },
+    {
+        "title": "Aplicación Informatica, Programa",
+        "definition": "Un programa es un conjunto de instrucciones ordenadas y agrupadas de forma adecuada. Varios programas constituyen una aplicación informática."
+    },
+    {
+        "title": "Firmware",
+        "definition": "Software con el que están programadas la memorias ROM. Es un software pre-grabado que incorpora todas las funciones a las que están destinados los componentes de un equipo."
+    },
+    {
+        "title": "Software básico",
+        "definition": "El software básico es aquella parte de software sin la cual el ordenador no puede funcionar, denominado sistema operativo y firmware.",
+        "topic":"1"
+    },
+    {
+        "title": "Software de aplicaciones",
+        "definition": "El software de aplicaciones sirve para procesar la información de forma personalizada."
+    },
+    {
+        "title": "Composicion del hardware del ordenador",
+        "definition": "Unidad de control, Memoria central, Controladores, Unidad entrada/salida, Buses, Unidades periféricas"
+    },
+    {
+        "title": "Unidad Central de Proceso",
+        "definition": "Es la parte fundamental del ordenador. Se encarga de controlar todas las tareas y procesos que se realizan dentro de él. Está formado por la UC y UAL y su propia memoria que no es la RAM."
+    },
+    {
+        "title": "Unidad de control",
+        "definition": "Es la parte pensante del ordenador. Se encarga del funcionamiento de los aparatos que lo componen. Su tarea principal es recibir información para interpretarla y procesarla mediante las órdenes que envía a los otros componentes del ordenador."
+    },
+    {
+        "title": "Unidad de control composicion",
+        "definition": "Composición: Registro de instrucciones - almacena la instrucción que se está ejecutando, Registro contador de programas - dirección de memoria de la siguiente instrucción, Controlador/descodificador - se encarga de la instrucción y extrae el código de operación de la instrucción en curso, secuencia, reloj."
+    },
+    {
+        "title": "Tipos de sistemas Operativos",
+        "definition": "SOMU, SOMO, SORED"
+    },
+    {
+        "title": "SOMO",
+        "definition": "sistemas operativos monousuario: Solo un usuario puede usar los recursos"
+    },
+    {
+        "title": "SOMU",
+        "definition": "sistemas operativos multiusuario: varios usuarios pueden usar los recursos hardware a la vez. La CPU realiza todos los trabajos, suele estar conectado un ordeandor a varios terminales muertos. -> delay."
+    },
+    {
+        "title": "SORED",
+        "definition": "sistemas operativos en red: Comparete los recursos con los otros equipos que estan conectados en la misma red fisica"
+    },
+    {
+        "title": "servidor",
+        "definition": "el equipos que prove a otros usuario un servicio sin utilizar sus proprios recursos hardware"
+    },
+    {
+        "title": "cliente",
+        "definition": "Es el que recibe los datos del servidor utilizando sus recursos hardware"
+    },
+    {
+        "title": "software cliente",
+        "definition": "El servidor hace todo el trabajo utilizando su proprio hardware para proporcionarle al cliente lo necesario."
+    },
+    {
+        "title": "Sistemas monolíticos",
+        "definition": " es un software que es practicamente imposible de modificar, tiene sus módulos grandes en el nucleo los cuales interactuan entre si y es compliado por capas."
+    },
+    {
+        "title": "Memoria RAM y ROM",
+        "definition": "RAM - RANDOM ACCES MEMORY <br> ROM - READING ONLY MEMORY"
+    },
+    {
+        "title": "Composicion memoria RAM y sus funciones",
+        "definition": "Registro de dirección,  registro de intercambio, selector de memoria, señales de control"
+    },
+    {
+        "title": "Tipos de memoria RAM y sus usos",
+        "definition": "DRAM - DYNAMIC RAM <br> SRAM - Static RAM <br> SDRAM - synchronous dynamic ram <br> DDRAM - DOUBLE DATA RATE RAM"
+    },
+    {
+        "title": "Memoria ROM composicion y usos",
+        "definition": "EPROM- ERASEBLE PROM <br> PROM - PROGRAMABLE ROM, contien el firmware"
+    },
+    {
+        "title": "CMOS",
+        "definition": "COMPLEMENTARY METAL OXIDE SEMICONDUCTOR"
+    },
+    {
+        "title": "BIOS",
+        "definition": "BASIC INPUT OUTPUT SYSTEM"
+    },
+    {
+        "title": "UEFI",
+        "definition": "UNIFIED EXTENSIBLE FIRMWARE INTERFACE"
+    },
+    {
+        "title": "Bus y tipos de BUS",
+        "definition": "Bus de datos - Transmite la informacion UCP - PERIFERICO <BR> Bus de direcciones - indentifica el dispositivo hacia donde va la informacion <BR> Bus de control o de sistema - organiza y redirige la informacion hacia el bus pertinente"
+    },
+    {
+        "title": "Estructura sistema bus",
+        "definition": "Procesador -> Buses -> RAM"
+    },
+    {
+        "title": "Periféricos y tipos",
+        "definition": "Entrada <BR> SALIDA <BR> E/S"
+    },
+    {
+        "title": "Drivers o controladores",
+        "definition": "Programas que ayudan al sistema operativo a reconocer y mejorar el funcionamiento de un periferico."
+    },
+    {
+        "title": "Tipos de datos",
+        "definition": "Entrada -> Proceso -> Salida"
+    },
+    {
+        "title": "Tipos de codificacion",
+        "definition": "ASCII 7, 8 <br> UNICODE <br> BCD <br> EBCDIC"
+    },
+    {
+        "title": "medidas de la informacion",
+        "definition": "8 Bits - 1 byte <br> 1024 bytes - 1kb <br> 1024 kb - 1mb <br> 1024mb - 1gb <br> 1024gb - 1tb"
+    },
+    {
+        "title": "Unidad Aritmético Logica",
+        "definition": "Operacional o circuito operacional/registro de entrada/acumulador/registro de estado"
+    },
+    {
+        "title": "Charles Bobbage",
+        "definition": "Inventó la primera  computadora y sigue con el tratamiento automático: ENTRADA-PROCESA-SALIDA."
+    },
+    {
+        "title": "George Boole",
+        "definition": "Teoría de la lógica matemática y el álgebra de Boole. Se pueden elaborar procesos o programas que dependiendo de las condiciones hacen 1 cosa u otra."
+    },
+    {
+        "title": "Primera generacion (1945-1955)",
+        "definition": "Se utilizaban las válvulas de vacío. Estas computadoras, no ordenadores, eran máquinas programadas en leguaje máquina puro."
+    },
+    {
+        "title": "Segunda generacion (1955-1965)",
+        "definition": "Aparicion de los circuitos integrados que sustituyen a los transitores. Se reduce el tamaño considerablemente y la energía consumida."
+    },
+    {
+        "title": "Procesamiento por lotes",
+        "definition": "Introducción de datos en un hardware. Está en un medio físico distinto de la computadora.Llevar físicamente el soporte a la computadora y una vez procesada se almacenaba en un soporte diferente.El soporte en el que están los resultados se lleva a otro dispositivo distinto para realizar la generación de resultados"
+    },
+    {
+        "title": "Tercera generacion (1965-1980)",
+        "definition": "Aparecen los circuitos integrados. <b> IBM 360 Y MULTIUSUARIO <b>"
+    },
+    {
+        "title": "Cuarta generaciòn (1980 - presente)",
+        "definition": "Aparicion de los ordenadores personales"
+    },
+    {
+        "title": "Funciones SO.",
+        "definition": "Coordinar el hardware dependiendo del programa en ejecución aunque el usuario decide los programas es el SO quien los pone en funcionamiento y consigue que el programa cumpla su objetivo. Se rige por la siguiente jeraquia: Aplicaciones <br> Sistema Operativo <br> Hardware"
+    },
+    {
+        "title": "Interfaz",
+        "definition": "Ayuda a la comunicación usuario - SO - Hardware. <small><u>Puede ser de varios tipos.. (Ya te saldra la pregunta ) <u></small>"
+    },
+    {
+        "title": "Servicios o Demonios",
+        "definition": "Un servicio es un tipo de aplicación que normalmente se ejecuta en segundo plano. Proporcionan a los usuarios aplicaciones que incorporan diversas formas de poder utilizar los recursos del SO. <b> imprescindible<b>"
+    },
+    {
+        "title": "Usos de los servicios",
+        "definition": "Crear programas <br> Ejecutar esos programas proporcionando los recursos hardware y software necesarios <br> gestión de archivos <br> información estadística, de seguridad y registro de lo que se hace en el sistema."
+    },
+    {
+        "title": "Administrador de memoria",
+        "definition": "es el administrador de memoria que debe llevar un registro de las partes de memoria que se estan utilizando y las que no. gestion del intercambio de datos"
+    },
+    {
+        "title": "Dividir en particiones fijas",
+        "definition": "fragmentación interna, frames fijos."
+    },
+    {
+        "title": "Intercambio variable",
+        "definition": "fragmentación externa, frames variables."
+    },
+    {
+        "title": "Proceso",
+        "definition": "programa en ejecución, tiene que tener asignado los recursos necesarios <br> tiene que estar protegido de los demas procesos <br> puede ejecutarse en modo usario o kerner <br> su estructura de datos es BCP <br> pueden comunicarse, sincronizarse y colaborar entre si"
+    },
+    {
+        "title": "páginas, frames",
+        "definition": "la paginacion se divide en frames y los procesos en paginas"
+    },
+    {
+        "title": "memoria virtual",
+        "definition": "Si la UCP quiere atender una parte de un proceso que no esta cargada, la memoria virtual se encarga de traerla a la memoria real. Cuando la memoria real se llena la memoria que no se esta utilizando se intercambia con el proceso al que se quiere acceder, entrando en la memoria la nueva parte del proceso que se quiere utilizar."
+    },
+    {
+        "title": "swapping",
+        "definition": "Swap-in, Swap-out, tiene reservado un espacio concreto en el disco no suele haber fragmentacion."
+    },
+    {
+        "title": "paginacion",
+        "definition": "la paginacion se divide en frames y los procesos en paginas, si se supera el limite puede haber hyperpaginación. Es el que más se fragmenta y se suele usar en sistemas monousuario."
+    },
+    {
+        "title": "segmentacion",
+        "definition": "la segmentacion se divide en segmentos, son variables y existe fragmentacion externa, para que sean variables necesita algo llamado <b>pilas de memoria o STACKS</b"
+    },
+    {
+        "title": "multiprogramacion",
+        "definition": "El reparto de los recursos del sistema entre los distintos procesos y su ejecución. Gestionada por los servicios."
+    },
+    {
+        "title": "Chipset",
+        "definition": "El chipset es el encargado de realizar la comunicación entre las unidades funcionales del equipo y los periféricos. Parte superior: Pantalla, impresoras, mouse <br> Parte inferior: disco local, unidad DVD, energía"
+    },
+    {
+        "title": "Tipos de interfaces",
+        "definition": "GUI, CLI, NUI, OUI"
+    },
+    {
+        "title": "Estructura de SO por capas",
+        "definition": "Nivel usuario <br> Nivel superior <br> Nivel ejecutivo <br> Nivel núcleo"
+    },
+    {
+        "title": "Nivel Usuario",
+        "definition": "Muestra al usuario el proceso que se está ejecutando o el que quiere ejecutar."
+    },
+    {
+        "title": "Nivel Supervisor",
+        "definition": "Se encarga de realizar la comunicación de cada proceso entre usuario - SO"
+    },
+    {
+        "title": "Nivel Ejecutivo",
+        "definition": "Sobre este nivel se realiza la administración de la memoria para almacenar los procesos en páginas."
+    },
+    {
+        "title": "Nivel núcleo",
+        "definition": "Se encarga de gestionar qué procesos llegan al ordenador para ser ejecutados."
+    },
+    {
+        "title": "Máquinas virtuales",
+        "definition": "Copias de hardware gracias a la memoria independiente, aparecen con los SO de 32 bits."
+    },
+    {
+        "title": "Proceso en tiempo real",
+        "definition": "Similar a los procesos en lotes. El usuario introduce, procesa y recibe los datos en el mismo equipo."
+    },
+    {
+        "title": "Monousuario/Monopuesto",
+        "definition": "Un solo usuario trabaja en un ordenador. Nadie más puede usarlo hasta que no cierre sesión."
+    },
+    {
+        "title": "Multiusuario",
+        "definition": "varios pueden utilizar simultáneamente los recursos del sistema. Pueden compartir los periféricos, acceso a bases de datos. Se puede producir con varios teclados o conectados a un servidor."
+    },
+    {
+        "title": "Monotarea",
+        "definition": "Solo puede ejecutar un programa/proceso a la vez. DOS/WINDOWS 9X. el hardware solo atiende un proceso a la vez dando el 100%."
+    },
+    {
+        "title": "Multitarea",
+        "definition": "Puede ejecutar varios programas/procesos a la vez (más de 1 procesador). Puede ser usado con uno solo pero se compartirá el tiempo entre los diferentes programas a ejecutar."
+    },
+    {
+        "title": "Monoprocesador",
+        "definition": "Único procesador. Puede ser monousuario o multiusuario, monotarea o multitarea."
+    },
+    {
+        "title": "Multiprocesador",
+        "definition": "Más de 1 procesador. <br> Multiproceso simétrico (SMP) <br> Multiproceso asimétrico (AMP)"
+    },
+    {
+        "title": "Ejecucion en Tiempo real",
+        "definition": "La respuesta es inmediata"
+    },
+    {
+        "title": "Ejecucion en Tiempo compartido",
+        "definition": "Cada proceso utilizará ciclos de la UCP hasta que finalice."
+    },
+    {
+        "title": "pseudomultirarea",
+        "definition": "Windows 95, 98 Me. Son capaces de tener cargados en memoria más de un proceso y estar ejecutando, aparentemente, más de uno a la vez. Ejecuta poco a poco varios procesos. es mañas lento ya que no es capaz de dividir su potencia entro los diferentes que están en memoria."
+    },
+    {
+        "title": "32 bits ventajas",
+        "definition": "Son abiertos y segmentados. Su diseño permite que un bloque de programas controle los periféricos de entrada, otro los de salida, otro los dispositivos de almacenamiento, otro las comunicaciones.. etc. Más fácil de cambiar. Tienen una estructura por niveles o capas."
+    },
+    {
+        "title": "Programas reubicables",
+        "definition": "Una vez cargados en ram pueden variar de situación ya que puede ser necesario ubicar otro proceso o por operaciones internas del proprio ordenador."
+    },
+    {
+        "title": "Porgrama reentrante",
+        "definition": "Si no se están ejecutando dejan la memoria libre para otros procesos, cuando se liberan se suelen almacenar temporalmente en el disco duro."
+    },
+    {
+        "title": "Porgrama residente",
+        "definition": "son programas permanentes hasta que se apaga el ordenador, no cambia su configuracion -> antivirus -> centinelas. Se suelen ubicar en esos 64 kb de memoria."
+    },
+    {
+        "title": "Porgrama reutilizable",
+        "definition": "Programas utilizados por varios usuarios a la vez en memoria."
+    },
+    {
+        "title": "Alogoritmo de rueda",
+        "definition": "Se le asignan un mismo tiempo de ejecución a todos los procesos y en el orden FIFO."
+    },
+    {
+        "title": "Alogoritmo FIFO",
+        "definition": "First in first out o First come first serve. Los cliclos de la UCP se asignan en funcion del FIFO y se ejectutan hasta terminar por completo. -> Colas de impresión o cualquier proceso que tiene que estar hecho en orden."
+    },
+    {
+        "title": "Bloque control procesos",
+        "definition": "Tiene toda la información sobre un proceso. *PID, *ubicación en memoria, *prioridad, *estado, *recursos"
+    },
+    {
+        "title": "Planificador",
+        "definition": "Se encarga de asignar los recursos del sistema, de manera que se consigan unos objetivos de comportamiento especificados."
+    },
+    {
+        "title": "Prioridad",
+        "definition": "determina la cantidad de ciclos de ucp que debe utilzar un proceso"
+    },
+    {
+        "title": "Transición A",
+        "definition": "Programa en ejecución a la espera de una señal para seguir."
+    },
+    {
+        "title": "Transición B",
+        "definition": "Programa que ha utilizado el tiempo asignado y tiene que dejar paso al siguiente proceso."
+    },
+    {
+        "title": "cambio de contexto",
+        "definition": "cambio que se produce en un sistema multiproceso cuando un proceso pasa de un estado a otro"
+    },
+    {
+        "title": "Transición C",
+        "definition": "Programa preparado, necesita una distribución de tiempo para ejecutarse."
+    },
+    {
+        "title": "Transición D",
+        "definition": "Programa pasa de bloqueado a preparado al recibir una orden."
+    },
+    {
+        "title": "PID",
+        "definition": "Identificador de proceso (PROCESS INDENTIFICATION)"
+    },
+    {
+        "title": "PPID",
+        "definition": "dato de referencia del PID del proceso padre dentro de BCP con el fin de identificar todos los procesos que son hijos siempre que formen parte del PPID"
+    },
+    {
+        "title": "Algoritmo SRTF",
+        "definition": "algoritmo el cual finaliza todo aquel proceso que tenga un tipo más corto"
+    },
+    {
+        "title": "Algoritmo LIFO",
+        "definition": "algoritmo el cual asigna al ultimo proceso que llega los tiempos y los ciclos de UCP hasta que termina completamente"
+    },
+    {
+        "title": "Finalizar arbol de procesos",
+        "definition": "Cerrar el proceso padre de varias hebras."
+    },
+    {
+        "title": "Hebras",
+        "definition": "Identificador de proceso (Control Proporcional Integral Derivativo)"
+    },
+    {
+        "title": "Unidades físicas",
+        "definition": "Disco duro, disquete, CD-ROM. Dispositivos no volatiles. Tienen una estrctura física desde fabrica y logica al formatearlos. Los disquetes no aceptan particionamiento."
+    },
+    {
+        "title": "Unidades lógicas",
+        "definition": "Representación dada por el SO de las unidades fisicas."
+    },
+    {
+        "title": "unidad de administración de memoria (MMU)",
+        "definition": "dispositivo de hardware responsable del manejo de los accesos a la memoria por parte de la UCP"
+    },
+    {
+        "title": "Directorio",
+        "definition": "Es una zona en cualquier unidad de amacenamiento destinada a almacenar ficheros o archivos regulares."
+    },
+    {
+        "title": "Subdirectorio",
+        "definition": "Zona del directorio destinada a almacenar ficheros o archivos regulares."
+    },
+    {
+        "title": "Fichero o archivos regulares",
+        "definition": "En el proprio elemento se produce el amacenamiento de datos."
+    },
+    {
+        "title": "periférico tipo bloque",
+        "definition": "periférico que maneja la información de tamaño fijo y esta entra y sale en forma de bloque"
+    },
+    {
+        "title": "periférico tipo carácter",
+        "definition": "periférico que introduce datos dentro de la memoria del ordenador en forma de caracteres, sin ningún orden concreto"
+    },
+    {
+        "title": "interfaz tipo texto",
+        "definition": "tipo de interfaz que utiliza solo texto ASCII para dibujar las ventanas, botones y decoraciones"
+    },
+    {
+        "title": "interfaz tipo gráfico",
+        "definition": "tipo de interfaz que utiliza un conjunto de imágenes y objetos gráficos para representar la información y acciones disponibles en la interfaz"
+    },
+    {
+        "title": "periférico de entrada",
+        "definition": "periférico que introduce información en el ordenador"
+    },
+    {
+        "title": "periférico de salida",
+        "definition": "periférico que extrae la información desde la memoria y el resto de componentes internos del ordenador y, así, mostrar datos"
+    },
+    {
+        "title": "periférico de entrada/salida",
+        "definition": "periférico que introduce o extrae información desde el ordenador"
+    },
+    {
+        "title": "ratón",
+        "definition": "periférico de entrada/salida tipo bloque"
+    },
+    {
+        "title": "MS-DOS y versiones de Windows hasta ME",
+        "definition": "los discos se particionan con FDISK y se formatean con FORMAT"
+    },
+    {
+        "title": "Windows NT(4.0, 2000, XP, Vista/7",
+        "definition": "heramientas propias de particionado, tanto en el proceso de instalacion del SO como una vez instalado el mismo"
+    },
+    {
+        "title": "UNIX/Linux",
+        "definition": "se utilizan elementos como Reiser, FIPS o similares"
+    },
+    {
+        "title": "otras heramientas de particionado",
+        "definition": "Partition Wizard, Partition Magic, Paragon, Portion Comander"
+    },
+    {
+        "title": "teclado",
+        "definition": "periférico de entrada/salida tipo bloque"
+    },
+    {
+        "title": "monitor",
+        "definition": "periférico de entrada/salida tipo bloque"
+    },
+    {
+        "title": "impresora",
+        "definition": "periférico de entrada/salida tipo bloque"
+    },
+    {
+        "title": "Fotheringam",
+        "definition": "diseñador del método de la memoria virtual"
+    },
+    {
+        "title": "Estructura física de un disco duro.",
+        "definition": "Las Caras contienen las pistas y quedan determinadas por el numero de platos, <br> <br> Las pistas son las divisiones de las caras y definen el tamaño,<br> <br> Los sectores es la cantidad que se lee o se escribe de una vez en una sola operación 512 Bytes -> 2048 Bytes."
+    },
+    {
+        "title": "Cluster (unidad de asignación) y Sector",
+        "definition": "El cluster es definido por el usuario y es un conjunto de sectores, es el tamaño minimo que el SO lee o graba en el disco, <br><br> Los sectores son el minimo tamaño que se puede grabar o leer en el disco es definido por el fabricante."
+    },
+    {
+        "title": "Estructura lógica del disco duro",
+        "definition": "*Sector de arranque, *FAT, *Directorio Raiz, *Zona de datos"
+    },
+    {
+        "title": "Estructura lógica del disco duro",
+        "definition": "*Sector de arranque, *FAT, *Directorio Raiz, *Zona de datos"
+    },
+    {
+        "title": "Sector de arranque",
+        "definition": "Se kicakuza en el disco (sector 0). Contiene un pequeño programa que permite cagar el sistema operativo en memoria. Contiene una tabla con la información relativa al disco, es conocida como BPB (BIOS PARAMETER BLACK)"
+    },
+    {
+        "title": "Tabla de asignación de archivos (FAT)",
+        "definition": "Organiza la infromación en forma de ficheros dentro de la zona de datos. Es como el indice del disco duro. Al borrar un fichero se puede asignar otro fichero en ese espacio de memoria y si no es suficiente se le asginaran otros sectores para evitar la fragmentación externa."
+    },
+    {
+        "title": "Directorio raiz",
+        "definition": "La tercera zona se crea en el disco al formatearlo.  Es de tamaño fijo y se sitúa físicamante despues de la FAT."
+    },
+    {
+        "title": "Datos del usuario",
+        "definition": "Contiene la información de los archivos y subdirectorios que tenga el disco. Se ubica a partir del directorio raiz."
+    },
+    {
+        "title": "Diferencia entre Particiones primarias y extendidas",
+        "definition": "Delimitan espacio del disco que estamos utilizando. Podemos tener varias primarias pero solo una extendida."
+    },
+    {
+        "title": "Particiones primarias",
+        "definition": "Es el espacio de disco imprescindible para poder empezar a utilizar el espacio de almacenamiento. Solo puede haber tres de estas, y no en todos los sistemas de archivos. Cada partición de este tipo tiene su propia FAT. En este tipo de particiones es donde se suele instalar el sistema operativo."
+    },
+    {
+        "title": "Particion extendida",
+        "definition": "Es otro tipo de partición que actúa como una partición primaria sin serlo. Se utiliza para contener infinidad de unidades o particiones lógicas en su interior. Fue ideada para romper la limitación de tres particiones primarias en un solo disco físico. <b> Solo puede existir una partición de este tipo por disco. </b>"
+    },
+    {
+        "title": "Particiones lógicas",
+        "definition": "Ocupa un trozo de partición extendida o la totalidad de la misma, la cual se ha formateado con un tipo específico de sistema de archivos (FAT32, NTFS, ext3/4, etc.) y a la que se le ha asignado una unidad. Siempre nos referiremos a este tipo de particiones como unidades lógicas."
+    },
+    {
+        "title": "Particion Activa",
+        "definition": "Solamente puede ser una. Es la que se lee en primer lugar cuando se inicia el ordenador. El BIOS tiene configurado en la secuencia de arranque como primero en ser leido."
+    },
+    {
+        "title": "Gestores de arranque (boot.ini, boot-mgr, grub, GAC, BootMagic)",
+        "definition": "Preparan los discos duros para pasar a activos en funcion de la opción que se escoja al iniciar el ordenador."
+    },
+    {
+        "title": "Ruta o Path",
+        "definition": "Una ruta viene dada por una sucesión de nombres de directorios y subdirectorios, ordenados ierárquicamente de izquierda a derecha, separados por algún carácter especial que suele ser una barra / (UNIX/Linux) o una barra invertida (MS-DOS, Windows) y que puede terminar en el nombre de un archivo presente en la última rama de directorios especificada."
+    },
+    {
+        "title": "Unidad Activa",
+        "definition": "Unidad activa. Se llama unidad activa a la letra que indica la unidad lógica que co- rresponde a la unidad física sobre la que el sistema operativo tiene el control o está situado. Para poder acceder a un fichero o directorio concreto hay que saber en qué unidad estamos situados; es decir, cuál es la unidad activa."
+    },
+    {
+        "title": "Directorio Activo",
+        "definition": "Saber en que directorio estamos."
+    },
+    {
+        "title": "Trayectorias",
+        "definition": "Es un nombreque nos indica la posición de directorios y ficheros puede ser: absoluta, relativa y semi-absoluta."
+    },
+    {
+        "title": "Trayectoria absoluta",
+        "definition": "Trayectorias absolutas. Con este tipo de trayectorias se pueden identificar ficheros y directorios sin tener en cuenta ni la unidad ni el directorio activo."
+    },
+    {
+        "title": "Trayectorias relativa",
+        "definition": "Trayectorias relativas. Para utilizar estas trayectorias es importante tener en cuenta tanto el directorio activo como la unidad activa."
+    },
+    {
+        "title": "Trayectorias semi-absoluta",
+        "definition": "Una combinación de la abosluta y de la relativa."
+    },
+    {
+        "title": "Comandos vistos hasta ahora",
+        "definition": "net start, stop, pause <br> diskpartk <br> bcdedit <br> ping"
+    },
+    {
+        "title": "Spool de impresoras",
+        "definition": "El algortimo de la cola de impresión"
+    },
+    {
+        "title": "Cuadro de dialogo",
+        "definition": "Ventanas emergentes que salen cuando estamos procesando en algun proceso"
+    },
+    {
+        "title": "memoria interna y externa",
+        "definition": "externa: Se les da esta denominación a los soportes de almacenamiento, ya que son capaces de almacenar información <br> interna ROM y RAM"
+    },
+    {
+        "title": "MBR",
+        "definition": "Un registro de arranque principal, conocido también como registro de arranque maestro"
+    },
+    {
+        "title": "FAT",
+        "definition": "FAT ALOCATION TABLE. Maximo 2 gb por archivo y 4 gb de tamaño de disco. Tiene un archivo fragmentado y los trozos tienen la referencia al siguiente trozo hasta que ya no haya más referencias. – antes de Windows XP"
+    },
+    {
+        "title": "NTFS",
+        "definition": " New Technology File Systemm. Puede admitir volúmenes de hasta 8 petabytes en Windows Server 2019 y versiones más recientes y Windows 10, versión 1709 y más recientes (las versiones anteriores admiten hasta 256 TB). Los tamaños de volumen admitidos se ven afectados por el tamaño del clúster y el número de clústeres. Si el archivo es pequeño se puede archivar dentro de la FAT - A partir de Windows XP"
+    },
+    {
+        "title": "EXT4,3,2",
+        "definition": "El sistema de archivos ext4 es capaz de trabajar con volúmenes de gran tamaño, hasta 1 exbibyte​ y ficheros de tamaño de hasta 16 TiB. Usado en Linux y SWAP."
+    },
+    {
+        "title": "Enlazamiento disco en Linux comando",
+        "definition": "Mount -t type device dir"
+    },
+    {
+        "title": "Comandos rutas",
+        "definition": "cd .., cd ., dir, dir\\archivo, dir .., md y mkdir"
+    },
+    {
+        "title": "FAT",
+        "definition": "File Allocation Table (se usa en Windows 98 y ME)"
+    },
+    {
+        "title": "NTFS",
+        "definition": "New Technology File System (se usa en Windows NT)"
+    },
+    {
+        "title": "CDFS",
+        "definition": "sistema de archivos de CD-ROM"
+    },
+    {
+        "title": "DEVES",
+        "definition": "un sistema de archivos virtual usado por UNIX que controla los archivos de dispositivos que se encuentran almacenados en el directorio /dev de la estructurade archivos convencional"
+    },
+    {
+        "title": "SWAP",
+        "definition": "utilizado en sistemas UNIX/Linux para la zona de gestión de la memoria virtual y de intercambio"
+    },
+    {
+        "title": "UFS",
+        "definition": "Unix File System (Unix/Linux)"
+    },
+    {
+        "title": "WINFS",
+        "definition": "Windows Future Storage (Windows 2008 Server y Vista 7)"
+    },
+    {
+        "title": "EXT",
+        "definition": ""
+    },
+    {
+        "title": "HPFS",
+        "definition": "High Performance File System (Macintosh y Netware)"
+    },
+    {
+        "title": "NFS",
+        "definition": "Netware File System (Macintosh Y Netware) especialmente diseñado para servidores de red-en desuso"
+    },
+    {
+        "title": "Maquina de Turing - Enigma",
+        "definition": "Una máquina de Turing es un dispositivo que manipula símbolos sobre una tira de cinta de acuerdo con una tabla de reglas."
+    },
+    {
+        "title": "Eniac",
+        "definition": "fue una de las primeras computadoras de propósito general. Era Turing-completa, digital, y susceptible de ser reprogramada para resolver «una extensa clase de problemas numéricos»."
+    },
+    {
+        "title": "MS-DOS",
+        "definition": "MS-DOS nació en 1980 al encargársele a Microsoft producir un sistema operativo para la gama de computadoras personales IBM PC de IBM. Fue el principal sistema operativo para computadoras personales compatible con IBM PC. <br> Sin sistema de carpetas solo tenia 8 caracteres, actualmente hasta 255."
+    },
+    {
+        "title": "Intel 8087",
+        "definition": "El Intel 8087, anunciado en 1980, fue el primer coprocesador de coma flotante para la línea de microprocesadores Intel 8086 y 8088. Se incluye dentro de los procesadores 80486."
+    },
+    {
+        "title": "Tabla ascii España y Francia",
+        "definition": "ES - 34 <BR> FR - 32"
+    },
+    {
+        "title": "Cambiar fecha y la hora en entorno comando",
+        "definition": "DATE y TIME",
+	    "topic":"8"
+    },
+    {
+        "title": "Formateo de disquetes o discos duros en Windows",
+        "definition": "Formateo completo FORMAT K: y el rapido es FORMAT K: /q <BR> Tener en cuenta que el formato rapido necesita que el disco haya sido al menos 1 vez formateado por completo <br> Los disquetes vienen formateados directamente",
+        "topic":"8"
+    },
+    {
+        "title": "Crear un disco de inicio de MS-DOS",
+        "definition": "SYS A",
+	    "topic":"8"
+    },
+    {
+        "title": "Sistema de archivos en discos menores de 512mb y superior a 512",
+        "definition": "En menos de 512 se usa FAT y en superior a 512 se usa FAT FAT32 Y NTFS",
+	    "topic":"8"
+    },
+    {
+        "title": "Defragmentacion de discos",
+        "definition": "Se puede hacer desde Windows directamente tambien hay defragmentadores especiales",
+	    "topic":"8"
+    },
+    {
+        "title": "Diskpart, CHKDSK, SFC, DEFRAM, CLEANMGR",
+        "definition": "Chkdsk – ejecutra el comando de análisis y correcion de errores de discos duros <BR> Sfc – lo mismo que el chkdsk – recuperar la integridad de la fat <BR> Defram – defregmentacion de discos duros <BR> Cleanmgr – para liberar espacios en el disco",
+        "topic":"8"
+    },
+    {
+        "title": "Convertir de FAT a NTFS y viceversa",
+        "definition": "Solo es posible de fat a ntfs imposible al reves. comando: convert c: /FS:NTFS",
+	    "topic":"8"
+    },
+    {
+        "title": "Windows XP Y WINDOWS 7 COMPRENSION/DESCOMPRESION",
+        "definition": "Tienen su proprio software que no necesita instalación, no hace falta ni descomprimirlos",
+	    "topic":"8"
+    },
+    {
+        "title": "Convertir de FAT a NTFS y viceversa",
+        "definition": "Solo es posible de fat a ntfs imposible al reves. comando: convert c: /FS:NTFS",
+	    "topic":"8"
+    },
+    {
+        "title": "Agregar y eliminar hardware",
+        "definition": "Suelen ser PLUG and PLAY. Que se pueda añadir en caliente. Suele ser USB o Fireware sin tener que apagar el ordena. Que se pueda añadir en frio discos duros, graficas etc. Puede ser que sea compatible o incompatible.",
+        "topic":"8"
+    },
+    {
+        "title": "Agregar/Eliminar/Actualizar",
+        "definition": "Al desintalar algo suele dejar archivos basura y tendriamos que borrar los registos con REGCLEANER o JV16TOOLS",
+	    "topic":"8"
+    },
+    {
+        "title": "LAN - Local Area Network",
+        "definition": "Una LAN (Local Area Network) tamaño máximo no supera los 2 Km. aproximadamente. Normalmente, las redes locales son privadas. Queda definida por la Comisión 802 de IEEE o proyecto 802,",
+	    "topic":"10"
+    },
+    {
+        "title": "IEEE",
+        "definition": "Institute of Electrical and Electronics Engineers",
+	    "topic":"10"
+    },
+    {
+        "title": "Protocolo 802.1",
+        "definition": "Definición de la interconexión de redes. Este estándar describe a su  vez los estándares IEEE 802 y el modelo de referencia de interconexión de los  sistemas abiertos de ISO (arquitectura OSI, de la que hablaremos más adelante).  Con este estándar se establece la asignación a cada adaptador de red de un número  o dirección de 48 bits, de tal forma que cada ordenador integrado en la red tendrá  una identificación diferente al resto. Cada tarjeta de red tiene una identificación  diferente a cualquier otra tarjeta existente en el mercado.",
+	    "topic":"10"
+    },
+    {
+        "title": "Protocolo 802.2",
+        "definition": " Control lógico de enlace. Esta norma define el tipo de protocolo lógico  del nivel de enlace entre ordenadores de una misma red.",
+	    "topic":"10"
+    },
+    {
+        "title": "Protocolo 802.3",
+        "definition": "l de enlace entre ordenadores de una misma red. o 802.3. Redes CSMA. Establece el método de acceso al medio de transmisión  CSMA (Carrier Sense Multiple Access o Acceso Múltiple por Detección de  Portadora), que es el utilizado en las redes tipo Ethernet.",
+	    "topic":"10"
+    },
+    {
+        "title": "CSMA",
+        "definition": "Carrier Sense Multiple Access o Acceso Múltiple por Detección de Portadora",
+	    "topic":"10"
+    },
+    {
+        "title": "Protocolo 802.4",
+        "definition": " Redes Token Bus. Define los protocolos, cableado e interfaz de acceso a redes LAN de este tipo.",
+	    "topic":"10"
+    },
+    {
+        "title": "Protocolo 802.5",
+        "definition": "Redes Token Ring. De forma análoga al anterior, describe los protocolos, cableado e interfaz de acceso a redes LAN tipo Token Ring.",
+	    "topic":"10"
+    },
+    {
+        "title": "Redes LAN tipo Token Ring.",
+        "definition": "Una red token-ring es una topología de red de área local (LAN) que envía datos en una dirección a través de un número de ubicaciones especificado utilizando un testigo. El testigo es el símbolo de autorización para el control de la línea de transmisión.",
+	    "topic":"10"
+    },
+    {
+        "title": "Protocolo 802.6",
+        "definition": "Redes de área metropolitana (MAN). Este estándar define el protocolo  de gran velocidad utilizado en redes de este tipo, utilizando principalmente fibra  óptica.",
+	    "topic":"10"
+    },
+    {
+        "title": "Protocolo 802.9",
+        "definition": "Redes con voz y datos. Esta norma define los estándares para la  integración de voz y datos sobre el mismo tipo de cableado incluyendo las normas  para el establecimiento de conexiones a través de la Red Digital de Servicios  Integrados",
+	    "topic":"10"
+    },
+    {
+        "title": "Protocolo 802.11",
+        "definition": "Redes sin hilos. Esta norma estandariza todo lo relativo a redes de ordenadores que no utilizan el cable. Se regulan los estándares sobre transmisión de datos a través de infrarrojos.",
+	    "topic":"10"
+    },
+    {
+        "title": "Red de campus",
+        "definition": "s. Una red se extiende a otros edificios dentro de una misma zona. Cada red de un edificio se conecta a las demás redes utilizando un cable principal de conexión, que no es línea telefónica. Este cable es un cable más de la red que tiene la misión de interconectar las redes deseadas.",
+	    "topic":"10"
+    },
+    {
+        "title": "Redes de área metropolitana, MAN, Metropolitan Area Network",
+        "definition": "están confinadas dentro de una ciudad y están sujetas a la legislación de la zona. Suelen contener recursos públicos y privados. En este tipo de redes, varias redes se conectan a otras en la misma ciudad y normalmente a través de la línea telefónica.",
+	    "topic":"10"
+    },
+    {
+        "title": "Redes de gran alcance WAN, Wide Area Network",
+        "definition": "abarcan varias ciudades, regiones o países. Internet es una red de este tipo. Los enlaces o nodos entre las diferentes redes son establecidos por los suministradores y operadores de telecomunicaciones. Estas empresas utilizan líneas de telefonía analógicas, digitales y de fibra óptica para enlazar los diferentes nodos.",
+	    "topic":"10"
+    },
+    {
+        "title": "Objetivos red",
+        "definition": "Compartir programas y archivos. <br> Compartir recursos de la red como impresoras. <br> Compartir bases de datos. <br> Expansión económica de los recursos informáticos de una empresa. <br> Posibilidad de trabajar en grupo. <br> Gestión de recursos centralizada. <br> Seguridad. <br> Interconectividad. <br> Mejoras en la organización de la empresa",
+	    "topic":"10"
+    },
+    {
+        "title": "Arquitectura OSI - Interconexión de Sistemas Abiertos",
+        "definition": " constituye un primer paso hacia la normalización internacional de varios protocolos. Aunque no es el modelo adoptado globalmente en Internet (cuyo dominio lo tiene el modelo TCP/IP) su interés es grande dado que constituye un marco de referencia fundamental para los diseñadores de redes",
+	    "topic":"10"
+    },
+    {
+        "title": "Estructura 7 niveles OSI",
+        "definition": "<br>Nivel físico - Determina cómo se tienen que transmitir las señales a través del cable, sea coaxial, par trenzado, fibra óptica, etc. <br><br> Nivel de enlace - Se encarga de transmitir correctamente pequeñas unidades de información, denominadas tramas, a través del medio físico, es decir, a través del cable, y entre nodos adyacentes de la red. El remitente del paquete de información sabe si lo que ha recibido es correcto. Si hay algún error en la transmisión, este nivel se encarga de reenviar la trama hasta que llega de forma correcta. La trama es una pequeña porción de datos, que pueden ser datos de control de la información que estamos enviando, o la propia información en sí. En caso de que el medio de transmisión sea compartido (como en el caso de las redes locales), este nivel también se encarga de arbitrar un acceso ordenado al medio común, mediante el subnivel conocido como MAC (Medium Access Control) <br><br> Nivel de red - . Se encarga de que los paquetes de datos sigan la ruta adecuada, o dicho de otra forma, se encarga del enrutamiento de los datos. El nivel de red de cada nodo decidirá, en función de la dirección de destino, cuál es el siguiente nodo al que habrá que reenviar la información.<br> <br> Nivel de transporte -  Se encarga de distribuir en el nodo final los paquetes de información enviados desde el origen, así como de corregir los posibles errores, pérdidas y desorden que el nivel de red haya podido introducir. Este nivel actúa ya que el nivel anterior no entrega toda la información a la vez al destino. A cada usuario se le entregan trozos o segmentos de información en bloques. El nivel de transporte se encarga de asegurar que los bloques de datos que van a un mismo destinatario lleguen sin error, en la secuencia adecuada y sin duplicidad. <br><br> nivel de sesion - Es el encargado de proveer los mecanismos para controlar el diálogo entre las aplicaciones de los sistemas finales. Este nivel se encarga de controlar el flujo de información en un sentido o en otro para que la transmisión sea correcta. <br><br> nivel de presentacion - Se encarga de adaptar la información de un sistema a otro, teniendo en cuenta que el formato de uno u otro sistema puede ser diferente. Traduce lo enviado para que el que recibe entienda lo que le llega y viceversa. <br><br> nivel de aplicacion - Nivel encargado de proporcionar las herramientas y mecanismos necesarios para que cualquier aplicación pueda acceder al entorno OSI de comunicaciones.",
+	    "topic":"10"
+    },
+    {
+        "title": "Arquitectura TCP/IP - Transmission Control Protocol/Internet Protocol",
+        "definition": "TCP/IP es el resultado de la investigación y desarrollo llevados a cabo en la red experimental de conmutación de paquetes ARPANET, y se denomina globalmente como la familia de protocolos TCP/IP. Esta familia consiste en una extensa colección de protocolos que se han erigido como estándares de Internet",
+	    "topic":"10"
+    },
+    {
+        "title": "Estructura 5 capas TPC/IP",
+        "definition": "<br>Capa física - define la interfaz física entre el dispositivo de transmisión de datos (por ejemplo, el ordenador) y el medio de transmisión o red. Esta capa se encarga de la especificación de las características del medio de transmisión, la naturaleza de las señales, la velocidad de datos, y cuestiones afines.<br><br> Capa de acceso a la subred - es responsable del intercambio de datos dentro de la subred a la que el sistema está físicamente conectado. Se considera que Internet es un conjunto de subredes interconectadas, donde cada subred es tecnológicamente independiente (por ejemplo una LAN Ethernet sería un ejemplo de subred). <br><br> Capa internet - cuando los paquetes de información tienen que atravesar diferentes subredes para alcanzar su destino final, esta capa se encarga de encontrar el camino hasta la subred donde se haya conectado físicamente el sistema final destinatario. El protocolo IP (Internet Protocol) que estudiaremos en el tema siguiente, es el encargado del enrutamiento de estos paquetes.<br><br> capa de transporte - garantiza una transmisión ordenada y fiable entre sistemas finales, solventando las pérdidas o desórdenes en los paquetes que hayan podido introducirse en el proceso de enrutamiento. El protocolo TCP (Transmission Control Protocol) es el encargado de esta labor, y será también estudiado en la siguiente unidad.<br><br> capa de aplicacion - contiene la lógica necesaria para posibilitar las aplicaciones de usuario. Para cada tipo particular de aplicación, como por ejemplo, la transferencia de ficheros, se necesitará un módulo bien diferenciado.",
+	    "topic":"10"
+    },
+    {
+        "title": "TOPOLOGÍAS EN LAN",
+        "definition": "La topología es la distribución física de los sistemas informáticos que configuran la red. La elección de un tipo u otro de topología responde a las necesidades de la empresa u organización, tipos de tarjetas de red, ",
+	    "topic":"10"
+    },
+    {
+        "title": "Factores para la eleccion de topología",
+        "definition": "flexibilidad para añadir/quitar usuarios <br><br> Fiabilidad a fallos <br><br> coste <br><br> retrado - tiempo que tarda en recorrer el medio de Transmisión <br> dispersion o concentracion fisica de equipos",
+	    "topic":"10"
+    },
+    {
+        "title": "Topología en bus. - difusion",
+        "definition": "Todos los ordenadores están conectados por un único medio de comunicación. Todas las estaciones que forman la red tienen acceso a la informacion pero solo el destinatario la procesa. <br> Es coaxial y la fibra optica.",
+	    "topic":"10"
+    },
+    {
+        "title": "Retardo",
+        "definition": "Lo podemos interpretar como el tiempo que tardan los paquetes de datos en recorrer el medio de transmisión. Este factor es determinante a la hora de producir cuellos de botella en la transmisión de datos",
+	    "topic":"10"
+    },
+    {
+        "title": "Topología en estrella.",
+        "definition": "Suele ser mas segura ya que en el bus si falla el cable central la red queda inutilizable. En este tipo de topología es necesario un componente hardware adicional, que no es necesario en la topología en BUS. Se necesita un concentrador, HUB o Switch. De ahora en adelante, nos referiremos indistintamente a HUB o SWITCH ya que ambos se utilizan para interconectar ordenadores, a pesar de sus diferencias, que más delante veremos.",
+	    "topic":"10"
+    },
+    {
+        "title": "MAU",
+        "definition": "Medium Access Unit. Es un elemento mediante el cual se convierte el anillo a estrella.",
+	    "topic":"10"
+    },
+    {
+        "title": "Topología en anillo.",
+        "definition": "Es una extensión de la topología de bus. En realidad es una forma de interconectar ordenadores, en donde la señal pasa de un ordenador a otro en forma circular. En la topología en anillo la señal circula por la red en un sentido determinado, hasta encontrar el ordenador al que ha sido enviada. Cada equipo de la red actúa de repetidor de la señal cuando ésta lo atraviesa En ocasiones, este tipo de topología se transforma en una topología en estrella mediante un elemento concentrador de cableado, o MAU (Medium Access Unit",
+	    "topic":"10"
+    },
+    {
+        "title": "redes 100BASE-T",
+        "definition": "Es una extensión de la topología de bus. En realidad es una forma de interconectar ordenadores, en donde la señal pasa de un ordenador a otro en forma circular. En la topología en anillo la señal circula por la red en un sentido determinado, hasta encontrar el ordenador al que ha sido enviada. Cada equipo de la red actúa de repetidor de la señal cuando ésta lo atraviesa En ocasiones, este tipo de topología se transforma en una topología en estrella mediante un elemento concentrador de cableado, o MAU (Medium Access Unit",
+	    "topic":"10"
+    },
+    {
+        "title": "CABLEADO DE RED",
+        "definition": "Para interconectar ordenadores entre sí y poder formar una red, es necesario disponer de ca",
+	    "topic":"10"
+    },
+    {
+        "title": "Cable serie",
+        "definition": "No se usa en la actualidad, pero recordemos que en determinadas redes, los ordenadores pueden estar conectados unos con otros a través de los puertos o conectores serie.",
+	    "topic":"10"
+    },
+    {
+        "title": "Coaxial",
+        "definition": "Físicamente es un núcleo de cobre sólido rodeado por un aislante, un hilo que combina protección y tierra y una funda protectora externa. La velocidad no excede 10 Megabits. No necesitan hub ya que los ordenadores e conectan con otros mediante el proprio cable. Topologia en bus.",
+	    "topic":"10"
+    },
+    {
+        "title": "Componentes red Coaxial",
+        "definition": "Segmentosd e cable que vayan de un ordenador a otro. <br><br> Un conector BNC <br><br>Tos terminadores o tapones para los ectremos del bus coaxial.",
+	    "topic":"10"
+    },
+    {
+        "title": "Ethernet 10BASE2",
+        "definition": "conocido como cheapernet, thin Ethernet, thinnet, y ThinWire es una variante de Ethernet que usa cable coaxial fino RG-58A/U o similar. Durante muchos años fue el estándar dominante en redes Ethernet de 10 Megabit por segundo",
+	    "topic":"10"
+    },
+    {
+        "title": "Ethernet 10BASE5",
+        "definition": "Velocidad 10 Mbit/s. También conocida como Thick Ethernet (Ethernet grueso), es la Ethernet original.",
+	    "topic":"10"
+    },
+    {
+        "title": "conector BNC",
+        "definition": "El conector BNC (Bayonet Neill-Concelman) es un tipo de conector, de rápida conexión/desconexión, utilizado para cable coaxial.",
+	    "topic":"10"
+    },
+    {
+        "title": "Par trenzado.",
+        "definition": "Consiste en 8 hilos centrales de cobre, rodeados cada uno de ellos por un aislante de varios colores. Se denomina par trenzado ya que los hilos van de dos en dos trenzados dentro de la funda principal. Lo que ocurre es que para conectar terminales telefónicos se utiliza una variante que consta de dos pares (cuatro hilos), cuyo conector se denomina RJ11. El utilizado para redes informáticas utiliza cuatro pares, siendo su conector típico el llamado RJ45. <br><br> Queda regulado por el estándar EIA 568B",
+	    "topic":"10"
+    },
+    {
+        "title": "RJ11",
+        "definition": "2 pares (4 hilos) terminales telefonicos.",
+	    "topic":"10"
+    },
+    {
+        "title": "RJ45",
+        "definition": "4 pares (UTP) (4 hilos) terminales telefonicos.",
+	    "topic":"10"
+    },
+    {
+        "title": "UTP apantallado",
+        "definition": "Se llama cable apantallado o cable blindado a un cable eléctrico de uno o más conductores aislados recubierto por una capa conductora común. Esta capa actúa de jaula de Faraday para evitar el acoplamiento de ruidos y otras interferencias, tanto del entorno hacia el cable, como del cable al entorno.",
+	    "topic":"10"
+    },
+    {
+        "title": "Categorias Par trenzado.",
+        "definition": "<br><br>Categoría 1. Utilizado exclusivamente para la transferencia de voz, es decir, para líneas de teléfono. Consta de cuatro hilos en dos pares sin apantallar. Con este tipo de cable no se pueden transmitir datos.<br><br>Categoría 2. Par trenzado sin apantallar certificado. Costa de cuatro pares de dos hilos y puede transmitir desde 1 a 4 Mbits/seg.<br><br>Categoría 3. Soporta velocidades de transmisión de hasta 10 Mbits /seg. (especial para redes tipo 10BASE-T) para redes Ethernet y de 4Mbits/seg para redes Token Ring. <br><br>Categoría 4. Se utiliza para el mismo tipo de redes que el de categoría 3 pero con una tasa de transferencia de hasta 20Mbits/seg.<br><br>Categoría 5. Uno de los más utilizados en la actualidad pero cediendo paso a los de categoría superior. Consta de 4 pares de 2 hilos cada uno. Dos pares se utilizan para la transferencia de datos y otros dos para transferencia de voz. Se utiliza en redes 100BASE-T de Ethernet ya que permiten una tasa de transferencia superior a los 100 Mbits/seg (la tasa máxima es de 155 Mbits/seg.). <br><br>Categoría 6 y 7. Se utiliza para redes 1000BASE-T de Ethernet (Gigabit Ethernet). Transmite a más de 1GB/Seg y puede incluir transferencia de datos, voz y vídeo. ",
+	    "topic":"10"
+    },
+    {
+        "title": "Conexión de ordenadores mediante par trenzado categoría 5.",
+        "definition": "Cuatro machos o clavijas RJ45 de 8 contactos. <br> Una roseta aérea de 8 contactos RJ45. <br> Tarjeta de red con salida RJ45, preferiblemente tipo PCI. <br> Tres segmentos de cable par trenzado. Un primer segmento de entre dos y cinco metros que <br> irá de la tarjeta de red a la roseta. Un segundo segmento de cable que irá de la roseta hasta <br> la caja de conexiones, y el último segmento que unirá la caja de conexiones con el HUB. <br> Una o varias cajas de conexiones, que contendrán tantas tomas como ordenadores que quremos conectar <br> Uno o varios HUB (o SWITCH, de mayor velocidad y mejores prestaciones) que tendrán tantas tomas como ordenadores queramos conectar.  ",
+	    "topic":"10"
+    },
+    {
+        "title": "Diferencias HUB y SWITCH",
+        "definition": "Antes de ver como se tiene que montar la red, tendremos que aclarar que los HUB son componentes que sirven para interconectar todos los ordenadores entre sí. Los SWITCH tienen la misma función. La gran diferencia es la forma de repartir la señal de red entre las diferentes tomas que tienen. Los HUB lo hacen de forma que dividen el ancho de banda que tienen entre todas las tomas, independientemente que en esas tomas haya conectados o no ordenadores. ",
+	    "topic":"10"
+    },
+    {
+        "title": "Fibra óptica",
+        "definition": "",
+	    "topic":"10"
+    },
+    {
+        "title": "Transmisión inalámbrica.",
+        "definition": "",
+	    "topic":"10"
+    },
+    {
+        "title": "CONEXIÓN DE ORDENADORES EN RED",
+        "definition": "",
+	    "topic":"10"
+    },
+    {
+        "title": "Hardware de un sistema en red.",
+        "definition": "",
+	    "topic":"10"
+    },
+    {
+        "title": "Hardware del servidor de red.",
+        "definition": "",
+	    "topic":"10"
+    },
+    {
+        "title": "CONEXIÓN DE ORDENADORES EN RED",
+        "definition": "",
+	    "topic":"10"
+    },
+    {
+        "title": "Hardware de las estaciones de trabajo",
+        "definition": "",
+	    "topic":"10"
+    },
+    {
+        "title": "WECA",
+        "definition": "",
+	    "topic":"10"
+    },
+    {
+        "title": "CONSIDERACIONES FINALES",
+        "definition": "",
+	    "topic":"10"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Cambiar fecha y la hora en entorno comando",
+        "definition": "DATE y TIME",
+	    "topic":"9"
+    },
+    {
+        "title": "Formateo de disquetes o discos duros en Windows",
+        "definition": "Formateo completo FORMAT K: y el rapido es FORMAT K: /q <BR> Tener en cuenta que el formato rapido necesita que el disco haya sido al menos 1 vez formateado por completo <br> Los disquetes vienen formateados directamente",
+        "topic":"9"
+    },
+    {
+        "title": "Crear un disco de inicio de MS-DOS",
+        "definition": "SYS A",
+	    "topic":"9"
+    },
+    {
+        "title": "Sistema de archivos en discos menores de 512mb y superior a 512",
+        "definition": "En menos de 512 se usa FAT y en superior a 512 se usa FAT FAT32 Y NTFS",
+	    "topic":"9",
+    },
+    {
+        "title": "Defragmentacion de discos",
+        "definition": "Se puede hacer desde Windows directamente tambien hay defragmentadores especiales",
+	    "topic":"9"
+    },
+    {
+        "title": "Diskpart, CHKDSK, SFC, DEFRAM, CLEANMGR",
+        "definition": "Chkdsk – ejecutra el comando de análisis y correcion de errores de discos duros <BR> Sfc – lo mismo que el chkdsk – recuperar la integridad de la fat <BR> Defram – defregmentacion de discos duros <BR> Cleanmgr – para liberar espacios en el disco",
+        "topic":"9"
+    },
+    {
+        "title": "Convertir de FAT a NTFS y viceversa",
+        "definition": "Solo es posible de fat a ntfs imposible al reves. comando: convert c: /FS:NTFS",
+	    "topic":"9"
+    },
+    {
+        "title": "Convertir de FAT a NTFS y viceversa",
+        "definition": "Solo es posible de fat a ntfs imposible al reves. comando: convert c: /FS:NTFS",
+	    "topic":"9"
+    },
+    {
+        "title": "Windows XP Y WINDOWS 7 COMPRENSION/DESCOMPRESION",
+        "definition": "Tienen su proprio software que no necesita instalación, no hace falta ni descomprimirlos",
+	    "topic":"9"
+    },
+    {
+        "title": "Convertir de FAT a NTFS y viceversa",
+        "definition": "Solo es posible de fat a ntfs imposible al reves. comando: convert c: /FS:NTFS",
+	    "topic":"9"
+    },
+    {
+        "title": "Agregar y eliminar hardware",
+        "definition": "Suelen ser PLUG and PLAY. Que se pueda añadir en caliente. Suele ser USB o Fireware sin tener que apagar el ordena. Que se pueda añadir en frio discos duros, graficas etc. Puede ser que sea compatible o incompatible.",
+        "topic":"9"
+    },
+    {
+        "title": "Agregar/Eliminar/Actualizar",
+        "definition": "Al desintalar algo suele dejar archivos basura y tendriamos que borrar los registos con REGCLEANER o JV16TOOLS",
+	    "topic":"9"
+    }
+]
